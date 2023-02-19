@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Anfal Ratul Portfolio</title>
+
+  <meta name="title" content="Anfal Ratul Portfolio.">
+  <meta name="description" content="This is a personal portfolio html, css, JavaScript">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preload" as="image" href="./assets/images/ratul1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/Anfal1.png" width="150" height="100" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/Anfal1.png" width="150" height="100" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Review</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn:hover">
+        <span class="span">Get A Quote</span>
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <div class="hero text-center" id="home">
+        <div class="container">
+          <div class="banner-outline has-after">
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/ratul1.jpg" width="500" height="680" alt="Anfal Ratul" class="img-cover">
+            </div>
+            <span class="span title">Anfal Bin Razzak Ratul</span>
+          </div>
+          <div class="hero-content">
+            <h1 class="h1 title"> <span style="color: #ad2222">Welcome!</span> I'm a Full-Stack Developer.</h1>
+            <div class="wrapper">
+              <a href="#" class="btn btn:hover">
+                <span class="span">Download CV</span>
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+              <p class="hero-text">
+                I like to craft solid and scalable front and backend products with great user experiences.
+              </p>
+            </div>
+          </div>
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+        </div>
+      </div>
+
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+                <h3 class="card-title">
+                  <a href="#">
+                    Web <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+                <h3 class="card-title">
+                  <a href="#">
+                    Digital <br>
+                    Marketing
+                  </a>
+                </h3>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+                <h3 class="card-title">
+                  <a href="#">
+                    Graphics <br>
+                    Design
+                  </a>
+                </h3>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+                <h3 class="card-title">
+                  <a href="#">
+                    Mobile <br>
+                    Application
+                  </a>
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+          <div class="tab-container">
+            <ul class="tab-btn-list">
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">Certifications</button>
+              </li>
+            </ul>
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/ratul2.jpg" width="100" height="100" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    Hello, It's Anfal Bin Razzak Ratul.
+                  </h2>
+                  <p class="section-text">
+                    A Full-Stack Developer having specialization in Back end and Front end Development. I've 1+ years of
+                    experience in
+                    Web Development having strong skills. I have back end skills in Laravel, PHP, nodeJS. I also have
+                    front end skills
+                    in JavaScript, Jquery, ReactJS, CSS, TailwinCSS, Bootstrap & foundation.
+                  </p>
+                  <ul class="about-list">
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+                      <span class="span title h5">Anfal Bin Razzak Ratul</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+                      <span class="span title h5">+880 1722-928701</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+                      <span class="span title h5">ratulcse1@gmail.com</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+                      <div class="social-list">
+                        <a href="https://web.facebook.com/beastslayerfiend.12" class="social-link h6"
+                          title="Facebook" target="_blank">FB.</a>
+                        <a href="https://github.com/anfal11" class="social-link h6" title="Github" target="_blank">GitHub.</a>
+                        <a href="https://www.linkedin.com/in/anfal-ratul-813250212/" class="social-link h6"
+                          title="Linkedin" target="_blank">Linkedin.</a>
+                        <a href="https://www.instagram.com/anfal_ratul/" class="social-link h6"
+                          title="Instagram" target="_blank">Insta.</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+                <div class="skill-content">
+                  <h3 class="h4 title section-title">
+                    Skills Overview
+                  </h3>
+                  <p class="section-text">
+                    I have more than 1 year experience building websites for clients all over the world. Below is the
+                    quick Overview of my main technical skill sets and technologies I use.
+                  </p>
+                  <ul class="skill-list">
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Vanilla JavaScript</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">ReactJS</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">PHP, Laravel</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">MySQL & Oracle</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">HTML & CSS</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Bootstrap & Jquery</span>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/skill-banner.jpg" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+              <h3 class="h4 title section-title">
+                Certificates I've gained with my skills are below:-
+              </h3>
+              <ul class="grid-list">
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-1.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-3.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On Your Next Project!
+          </h2>
+
+          <a href="#" class="btn btn:hover">
+            <span class="span">Hire Me Now</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+      <section class="section project" aria-label="my latest projects" id="project">
+        <ul class="slider-list">
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <div class="card-content">
+                <p class="card-subtitle">Design, Product</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Creative & experienced digital design studio</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Web, Product</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Front End Development & Maintenance</a>
+                </h3>
+              </div>
+            </div>
+
+          </li>
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">App, Product</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Android Application Development</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+      </section>
+      <hr>
+
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+
+            <form action="./index.html" method="post" class="contact-form">
+
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Submit </span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+
+            </form>
+
+
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">+880 1722-928701</span>
+
+                  <span class="title h6">+880 1521-545965</span>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    Daffodil International University,
+                    Savar, Dhaka.
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">https://cutt.ly/i3MYPMp</span>
+
+                  <span class="title h6">https://cutt.ly/O3MYXZf</span>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
